@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify, render_template
 from textblob import TextBlob
 
 
-subscription_key = 'bd3939e5b1174e2495dd86d1a30b825a'
+subscription_key = 'my_key'
 
 
 def get_translation(text_input, language_output):
