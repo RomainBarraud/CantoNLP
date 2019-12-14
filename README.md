@@ -1,5 +1,7 @@
 # Cantonese NLP webapp
 
+![picture](https://github.com/RomainBarraud/CantoNLP/blob/master/static/web_page_screenshot.png)
+
 **Description**: Webapp taking an input in Chinese Cantonese and returning a sentiment with polarity. This application was built for a MBA project aiming at defining an innovative financial product.
 
 **High level principle**: The web app takes an input in Cantonese, calls Azure Cogninitive Services to translate the input in English, then locally computes a polarity levering the textblob library and return the output to the frontend. 
