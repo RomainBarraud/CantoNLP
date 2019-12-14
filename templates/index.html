@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <title> CantoNLP </title>
+  </head>
+
+  <style>
+      h1 {font-size:90px;}
+      h3 {font-size:30px;}
+      form {text-align: center}
+      p {text-align: center; font-size:30px;}
+      .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
+              }
+
+  </style>
+
+  <body>
+    <h1 align="center";> CantoNLP </h1>
+    <h3 align="center";font-size:60px;> The unrivalled expert in Cantonese & English Language Analysis </h3>
+    <form method="POST";>
+      <input name="text">
+      <input type="submit"; value="Analyse me!">
+    </form>
+    <p> {{ myResponse }} </p>
+    <img src="static/QRcanto.png" height="400" width="400" class="center">
+  </body>
+</html>

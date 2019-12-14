@@ -1,0 +1,14 @@
+Endpoint: https://westus.api.cognitive.microsoft.com/sts/v1.0
+
+Key 1: 33b1e95e425a4025b1fde26f6449a91b
+
+Key 2: 50e60970004f42c199a2a0df808706b6
+
+
+bd3939e5b1174e2495dd86d1a30b825a
+https://transtextazu.cognitiveservices.azure.com/sts/v1.0/issuetoken
+
+Textblob corpora
+python -m textblob.download_corpora
+
+curl -X POST "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=zh-Hans" -H "Ocp-Apim-Subscription-Key:bd3939e5b1174e2495dd86d1a30b825a" -H "Content-Type: application/json; charset=UTF-8" -d "[{'Text':'Hello, what is your name?'}]"
